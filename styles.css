@@ -322,7 +322,7 @@ body{
 
   .first-container {
       background-color: hsl(270, 20%, 96%);
-      width: 57%;
+      width: 65%;
   }
 
   .second-container{
@@ -340,7 +340,7 @@ body{
 
   .purple-background {
     width: 65%;
-    height: 90%;
+    height: 600px;
     margin: 0;
 }
 
@@ -464,7 +464,6 @@ body{
 @media screen and (max-width: 376px){
   .purple-background {
       width: 57%;
-      height: 80%;
       background: #ab3dff;
   }
 
@@ -473,8 +472,8 @@ body{
       height: 580px;
       right: 25px;
     }
-  
-  .sam-profile h3 {
+
+    .sam-profile h3 {
         font-size: 11px;
       }
 
@@ -485,6 +484,5 @@ body{
 .text-4 {
     margin-left: 135px;
   }
-
 
 }
