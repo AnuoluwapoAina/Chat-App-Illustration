@@ -325,6 +325,24 @@ body{
       width: 65%;
   }
 
+  .purple-background {
+    width: 65%;
+    height: 600px;
+    margin: 0;
+}
+
+.phone-container {
+    width: 30%;
+    height: 600px;
+    top: 70px;
+    bottom: 50px;
+    right: 480px;
+}
+
+.text-7 {
+  margin-bottom: 15px;
+}
+
   .second-container{
     width: 55%;
   }
@@ -338,23 +356,6 @@ body{
     margin: 0;
 }
 
-  .purple-background {
-    width: 65%;
-    height: 600px;
-    margin: 0;
-}
-
-.phone-container {
-    width: 30%;
-    height: 77vh;
-    top: 70px;
-    bottom: 50px;
-    right: 480px;
-}
-
-.text-7 {
-  margin-bottom: 10px;
-}
 }
 
 @media screen and (max-width: 768px){
@@ -369,17 +370,6 @@ body{
     height: 650px;
 }
 
-.phone-inner {
-    background-color: hsl(270, 20%, 96%);
-    width: 95%;
-    margin: 10px;
-  }
-
-  .text-7 {
-    margin-bottom: 15px;
-  }
-
-
 .purple-background {
     width: 45%;
     height: 600px;
@@ -387,7 +377,6 @@ body{
     border-bottom-left-radius: 0px 50px;
 
 }
-
 
 .phone-container {
     width: 45%;
@@ -397,8 +386,18 @@ body{
     right: 250px;
 }
 
+.phone-inner {
+    background-color: hsl(270, 20%, 96%);
+    width: 95%;
+    margin: 10px;
+  }
+
 .overlay {
     left: 85px;
+  }
+
+  .text-7 {
+    margin-bottom: 15px;
   }
 
 .second-container {
@@ -415,6 +414,14 @@ body{
 }
 
 @media screen and (max-width: 426px){
+  .first-container {
+      height: 700px;
+    }
+
+    .purple-background {
+      border-bottom-left-radius: 1px 50px;
+    }
+
     .phone-container {
     width: 70%;
     height: 600px;
@@ -424,16 +431,12 @@ body{
 
 }
 
-.purple-background {
-  border-bottom-left-radius: 1px 50px;
-}
-
-.first-container {
-    height: 700px;
-  }
-
   .overlay {
       left: 76px;
+    }
+
+    .phone-inner{
+      margin:8px;
     }
 
   .second-container {
@@ -455,9 +458,6 @@ body{
     margin: 30px;
 }
 
-.phone-inner{
-  margin:8px;
-}
 
 }
 
@@ -468,21 +468,24 @@ body{
   }
 
   .phone-container {
-      width: 80%;
+      width: 82%;
       height: 580px;
-      right: 25px;
+      right: 18px;
     }
 
     .sam-profile h3 {
         font-size: 11px;
       }
+      .sam-profile {
+          width: 35%;
+      }
+
+      .text-4 {
+      margin-left: 135px;
+    }
 
     .text-7 {
     margin-bottom: 8px;
-}
-
-.text-4 {
-    margin-left: 135px;
-  }
+    }
 
 }
