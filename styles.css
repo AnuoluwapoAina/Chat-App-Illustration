@@ -49,7 +49,7 @@ body{
   }
 
   .phone-container:hover {
-    box-shadow: 1px 10px 16px 16px #11115061;
+    box-shadow: 1px 10px 16px 16px #1111502b;
   }
 
 .phone-inner{
@@ -465,7 +465,7 @@ body{
   .purple-background {
       width: 57%;
       height: 80%;
-      background: hsl(274, 100%, 62%);
+      background: #ab3dff;
   }
 
   .phone-container {
@@ -473,6 +473,10 @@ body{
       height: 580px;
       right: 25px;
     }
+  
+  .sam-profile h3 {
+        font-size: 11px;
+      }
 
     .text-7 {
     margin-bottom: 8px;
