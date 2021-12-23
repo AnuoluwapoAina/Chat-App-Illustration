@@ -113,12 +113,14 @@ body{
   font-size: 13px;
   color: hsl(0, 0%, 100%);
   margin-top: 40px;
-
+    white-space: nowrap;
 }
 
 .sam-profile p{
   font-size: 10px;
   color: hsl(270, 28%, 74%);
+    white-space: nowrap;
+ 
 }
 
 .sam-profile {
